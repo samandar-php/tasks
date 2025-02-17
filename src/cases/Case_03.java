@@ -1,4 +1,4 @@
-package Case;
+package cases;
 
 import java.util.Scanner;
 

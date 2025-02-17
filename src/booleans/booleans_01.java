@@ -1,6 +1,6 @@
-package Case;
+package booleans;
 
-public class Case_10 {
+public class booleans_01 {
     public static void main(String[] args) {
 
     }
