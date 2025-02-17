@@ -1,6 +1,6 @@
-package proc;
+package Case;
 
-public class proc_02 {
+public class Case_10 {
     public static void main(String[] args) {
 
     }
