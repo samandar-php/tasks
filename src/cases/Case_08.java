@@ -7,7 +7,6 @@ public class Case_08 {
         Scanner scanner = new Scanner(System.in);
         int D = scanner.nextInt();
         int M = scanner.nextInt();
-
         if (D == 1) {
             M = (M == 1) ? 12 : M - 1;
             D = switch (M) {
