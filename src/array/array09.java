@@ -2,7 +2,7 @@ package array;
 
 import java.util.Scanner;
 
-public class array_09 {
+public class array09 {
     public static void main(String[] args) {
                 Scanner scanner = new  Scanner(System.in);
                 int count = scanner.nextInt();

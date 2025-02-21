@@ -2,7 +2,7 @@ package array;
 
 import java.util.Scanner;
 
-public class array_16 {
+public class array07 {
     public static void main(String[] args) {
         Scanner scanner = new  Scanner(System.in);
         int count = scanner.nextInt();
@@ -12,5 +12,12 @@ public class array_16 {
             System.out.print(array[i]+ " ");
         }
 
-    }
+        System.out.print("\n");
+        for (int i = count - 1; i >= 0; i--) {
+            System.out.print(array[i]+ " ");
+        }
+
+
+        }
+
 }

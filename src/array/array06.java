@@ -2,7 +2,7 @@ package array;
 
 import java.util.Scanner;
 
-public class array_06 {
+public class array06 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();

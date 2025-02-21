@@ -2,19 +2,19 @@ package array;
 
 import java.util.Scanner;
 
-public class array_12 {
+public class array11 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new  Scanner(System.in);
         int count = scanner.nextInt();
+        int n = scanner.nextInt();
         int[] array = new int[count];
         for (int i = 0; i < count; i++) {
             array[i] = (int) (Math.random() * 100);
-            System.out.print(array[i] + " ");
+            System.out.print(array[i]+ " ");
         }
 
-        int k = scanner.nextInt();
-        for (int i = k - 1; i < count; i += k) {
-            System.out.print(array[i] + " ");
+        for (int i = count - 1; i < n; i += count) {
+            System.out.print(array[i]+ " ");
         }
     }
 }

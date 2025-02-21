@@ -2,7 +2,7 @@ package array;
 
 import java.util.Scanner;
 
-public class array_18 {
+public class array19 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int count = scanner.nextInt();
@@ -13,11 +13,11 @@ public class array_18 {
         }
 
         System.out.println("\n");
-        if (array[count] < array[9]){
+            if ((array[0] < array[count]) || (array[count] < array[9])){
             System.out.println(array[count]);
-
         }else {
             System.out.println(0);
         }
     }
+
 }
