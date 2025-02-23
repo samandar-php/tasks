@@ -20,6 +20,6 @@ public class array24 {
                 break;
             }
         }
-        System.out.println(a);
+        System.out.println(summa);
     }
 }
